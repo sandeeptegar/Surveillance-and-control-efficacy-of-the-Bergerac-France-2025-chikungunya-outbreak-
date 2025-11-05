@@ -12,6 +12,7 @@ This repository contains simulation code and analysis scripts used to evaluate t
 - Data files: `AMgam.csv`, `Car_Tol_1.csv`, `Fin_LSurv.csv`, `LDgam.csv`, `WL_re.csv`  
 - Climate file: `latitude_longitude.csv`  
   (For Bergerac: latitude = 44.87, longitude = 0.49)
+- Required climate variables: Temperature (t2m), Total precipitation (tp), and Evaporation from open water surfaces excluding oceans (evaow)
 - Source: [ERA5-Land hourly data from 1950 to present](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview)
 
 ### Population Data:  
