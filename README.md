@@ -3,7 +3,7 @@ This repository contains simulation code and analysis scripts used to evaluate t
 
 # Instructions to Run the Code
 
-## 1. Chikungunya Outbreak Simulation
+## Chikungunya Outbreak Simulation
 
 **Main code file:** chikv_bergerac.ipynb  
 **Supporting function files:** ChikungunyaFunSR.jl and ErrorFun_bergerac.jl 
@@ -17,3 +17,27 @@ This repository contains simulation code and analysis scripts used to evaluate t
 ### Population Data:  
 - Population data per sq. km around outbreak site in the city of Bergerac, France  
 - Source: [Eurostat - Population density data]([https://ec.europa.eu/eurostat/statistics-explained/index.php?oldid=596753](https://ec.europa.eu/eurostat/web/gisco/geodata/population-distribution/population-grids)
+
+## Programming Language
+- **Julia v1.10** or higher
+
+## Required Packages
+The following Julia packages are needed to run the simulations:
+- Plots
+- DelayDiffEq
+- Dierckx
+- CSV
+- Interpolations
+- QuadGK
+- Statistics
+- Dates
+- DataFrames
+- RecursiveArrayTools
+- TimeSeries
+
+You can install all packages using Julia's package manager:
+```julia
+using Pkg
+Pkg.add.(["Plots", "DelayDiffEq", "Dierckx", "CSV", "Interpolations", "QuadGK", "Statistics", "Dates", "DataFrames", "RecursiveArrayTools", "TimeSeries"])
+
+
